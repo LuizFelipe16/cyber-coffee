@@ -1,0 +1,172 @@
+.container {
+  min-height: auto;
+  background: #000102;
+
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+.coffees {
+  width: 100vw;
+  height: auto;
+  min-height: 25rem;
+
+  margin-top: 5rem;
+  padding: 3rem;
+  background: #101017;
+  border-radius: 0 0% 10% 10%;
+  
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  
+  color: #C39C6C;
+
+  h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    font-size: 2.8rem;
+
+    span {
+      font-size: 1.5rem;  
+      font-weight: 300;
+    }
+  }
+  
+  > hr {
+    width: 90%;
+    border: none;
+    background: #C39C6C;
+    height: 0.05rem;
+    opacity: 0.5;
+  }
+
+  > div {
+    width: 90%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    justify-content: flex-start;
+
+    .coffee {
+      width: 23rem;
+      height: 21rem;
+      border-radius: 0.75rem;
+      background: #101017;
+      background: #C39C6C;
+      border: 1px solid transparent;
+
+      margin-top: 1.2rem;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1.2rem;
+
+      transition: 0.2s all;
+
+      &:hover {
+        filter: brightness(85%);
+      }
+
+      img {
+        width: 6rem;
+        height: 6rem;
+        object-fit: cover;
+      }
+
+      h1 {
+        color: #101017;
+        font: 600 1.469rem 'Nunito', sans-serif;
+      }
+
+      p {
+        color: #101017;
+        font: 500 1.1rem 'Nunito', sans-serif;
+      }
+
+      span {
+        width: auto;
+        color: #101017;
+        font: 700 1.1rem 'Nunito', sans-serif;
+
+        display: flex;
+        gap: 0.55rem;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        
+        > button {
+          font-size: 1.3rem;
+          color: #101017;
+          
+          background: transparent;
+          border: none;
+          cursor: pointer;
+
+          transition: 0.1s;
+
+          &:hover {
+            transform: scale(1.1);
+          }
+        }
+      }
+
+      > button {
+        width: 10rem;
+        padding: 0.4rem 1.2rem 0.4rem 1.2rem;
+  
+        color: #101017;
+        font: 400 1.1rem 'Nunito', sans-serif;
+  
+        border: none;
+        cursor: pointer;
+        border-radius: 0.25rem;
+        border: 1px solid #101017;
+        background: transparent;
+  
+        transition: 0.2s;
+  
+        &:hover {
+          background: #101017;
+          color: #C39C6C;
+        }
+      }
+    }
+  }
+}
+
+.request {
+  width: 90%;
+  padding: 0.8rem 1.2rem 0.8rem 1.2rem;
+  
+  color: #101017;
+  font: 600 1.1rem 'Nunito', sans-serif;
+  
+  border: none;
+  margin-top: 2rem;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  border: 1px solid #101017;
+  background: #C39C6C;
+  
+  transition: 0.2s;
+  
+  &:hover {
+    filter: brightness(80%);
+  }
+}
