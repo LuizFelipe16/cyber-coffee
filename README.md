@@ -1,10 +1,10 @@
-![Banner](/public/banner.png)
+![Banner](/public/git/banner.png)
 
 <br/>
 
 # CyberCoffee
 
-<!-- ### Ignite Project! An application completely focused on understanding and seeing in practice how to apply different strategies and tools to improve overall performance.
+### Website created with the theme of an online coffee shop, with this pretext I was able to add several interesting features such as an integrated Blog and a simulation of products in stock with a shopping cart.
 
 <br/>
 <br/>
@@ -21,14 +21,20 @@ The following tools were used in building the project:
 - 👉 [NextJS](https://nextjs.org)
 - 👉 [ReactJS](https://pt-br.reactjs.org/)
 - 👉 [TypeScript](https://www.typescriptlang.org/)
-- 👉 [React Virtualized](https://github.com/bvaughn/react-virtualized)
-- 👉 [JSON Server](https://www.npmjs.com/package/json-server)
-- 👉 [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- 👉 [Prismic CMS](https://prismic.io)
+- 👉 [Date fns](https://date-fns.org/v2.28.0/docs/Getting-Started)
+- 👉 [React icons](https://react-icons.github.io/react-icons/)
+- 👉 [React toastify](https://fkhadra.github.io/react-toastify/introduction)
+- 👉 [Sass](https://sass-lang.com)
 
 <br/>
 
 <p align="center">
   🤖 Project Status 🚀 Construction... 🤖
+  <br/>
+  <a align="center" href="https://cybercoffee.vercel.app" target="_blank">
+    Access the address: https://cybercoffee.vercel.app
+  </a>
 </p>
 <br/>
 
@@ -49,15 +55,22 @@ Features
 =================
 <br/>
 
-- ✅ Json Server API queries with fetch;
-- ✅ List all products;
-- ✅ Search products by a query using search input;
-- ✅ Format data before component is rendered;
-- ✅ Functions using hooks useCallback;
-- ✅ Dynamic Imports for laze loading;
-- ✅ Use Bundle Analyzer for understand critical points of application for deploy;
-- ✅ Break render of component with useMemo;
-- ✅ Use memo for specific components for break the Shallow Compare.
+
+- ✅ getStaticProps and getServerSideProps strategies to consume an external api and pass the data pasted into the NextJS server for page rendering;
+- ✅ Simulation of a fully functional shopping cart;
+- ✅ Add, edit product quantity and delete product from shopping cart;
+- ✅ Validate product stock on quantity changes;
+- ✅ Automatic calculation of the shopping cart total;
+- ✅ Opening whatsapp for direct contact;
+- ✅ Prismic api post listing;
+- ✅ Data formatting with date Fns;
+- ✅ Notify/alert actions that cause application effects to the user;
+- ✅ Styling with sass;
+- ✅ Modern layout design;
+- ✅ All information about the company;
+- ✅ Google maps location;
+- ❌ Responsiveness with mobile devices;
+- ✅ Deploy in Vercel.
 
 <br/>
 
@@ -68,20 +81,20 @@ How to Install
 
 ```bash
 1. git clone
-2. cd performing-app
+2. cd cyber-coffee
 ```
 
 - Install the dependencies and start:
 
 ```bash
 3. yarn
-4. yarn start and yarn server
+4. yarn dev
 ```
 - or
 
 ```bash
 3. npm install
-4. npm run start and npm run server
+4. npm run dev
 ```
 
 - Have fun just like me while programming
@@ -89,15 +102,77 @@ How to Install
 <br/>
 
 Screen Shots
-================= -->
+=================
 
-- under construction...
+- Home
 
-<!-- - Users
+![ScreenShot](/public/git/home.png)
 
-![ScreenShot](/public/users.png)
+<br/>
 
-<br/> -->
+- About
+
+![ScreenShot](/public/git/about.png)
+
+<br/>
+
+- Clients review
+
+![ScreenShot](/public/git/clients.png)
+
+<br/>
+
+- Contact
+
+![ScreenShot](/public/git/contact.png)
+
+<br/>
+
+- Location GPS
+
+![ScreenShot](/public/git/gps.png)
+
+<br/>
+
+- Products
+
+![ScreenShot](/public/git/products.png)
+
+<br/>
+
+- Coffees
+
+![ScreenShot](/public/git/coffees.png)
+
+<br/>
+
+- Shopping Cart
+
+![ScreenShot](/public/git/cart.png)
+
+<br/>
+
+- Blog
+
+![ScreenShot](/public/git/blog.png)
+
+<br/>
+
+- Posts
+
+![ScreenShot](/public/git/posts.png)
+
+<br/>
+
+- Post
+
+![ScreenShot](/public/git/post.png)
+
+<br/>
+
+- Post Content
+
+![ScreenShot](/public/git/content.png)
 
 <br/>
 
